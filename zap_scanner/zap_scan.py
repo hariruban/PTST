@@ -2,7 +2,7 @@ import requests
 import time
 
 ZAP_URL = "http://localhost:8080"
-API_KEY = "your-zap-api-key"
+API_KEY = "4t7etjln63ta6c8rrthena0820"
 
 def zap_scan(target):
     scan_url = f"{ZAP_URL}/JSON/ascan/action/scan/?apikey={API_KEY}&url={target}&recurse=true"
